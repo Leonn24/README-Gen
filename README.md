@@ -21,15 +21,19 @@
   
   ## Installation
   Step 1: Clone this repository
+  ##
   ![Clone](/images/cloneimg.png)
 
   Step 2: Run 'node index.js' in terminal
+  ##
   ![Node](/images/nodeindex.png)
 
   Step 3: Answer the prompts
+  ##
   ![Prompt](/images/promptsimg.png)
 
   Step 4: Copy README file from dist directory
+  ##
   ![Dist](/images/distimg.png)
 
   ## Contributing
