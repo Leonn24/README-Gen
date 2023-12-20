@@ -4,8 +4,9 @@
   
   ## Description
   This project will generate a high quality README.md file you can copy to your GitHub project
-  Here's a preview of the generator in action! https://youtu.be/fVVd7oht9e8
-  https://github.com/Leonn24/README-Gen
+  Here's a preview of the generator in action! 
+  ## https://youtu.be/fVVd7oht9e8
+  ## https://github.com/Leonn24/README-Gen
 
 
   ## Table of Contents
