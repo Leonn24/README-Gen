@@ -35,6 +35,11 @@ const promptUser = () => {
       message: 'Will your project be open to contributions?'
     },
     {
+      type: 'input',
+      name: 'contribution',
+      message: 'Please explain your contribution guidelines.'
+    },
+    {
       type:'input',
       name:'githubUsername',
       message:'Enter your GitHub Username'
@@ -74,14 +79,11 @@ function generateREADME(data) {
   ## License
   This project is licensed under the ${data.license}
 
-  ## Contributing
-  ${data.contributing}
-
   ## Tests
   ${data.tests}
 
   ## Questions
-  ${data.questions}
+  
   For additional questions you can reach me throught:
   - [GitHub](http://github.com/${data.githubUsername})
   - [Email] ${data.email}`;
