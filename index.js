@@ -1,7 +1,7 @@
 import fs from 'fs';
 import inquirer from 'inquirer';
 
-async function promptUser(){
+const promptUser = () => {
   return inquirer.prompt([
     {
       type: 'input',
@@ -49,16 +49,19 @@ async function promptUser(){
 }
   
 function generateREADME(data) {
+  const licenseBadge = `[![License](https://img.shields.io/badge/license-${encodeURIComponent(data.license)}-green)](./LICENSE)`;
   return `# ${data.title}
+  
+  ${licenseBadge}
   
   ## Description
   ${data.description}
 
   ## Table of Contents
-  - [Installation]{#installation}
-  - [Usage]{#usage}
-  - [License]{#license}
-  - [Contributing]{#contributing}
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
 
@@ -69,7 +72,6 @@ function generateREADME(data) {
   ${data.contributing}
 
   ## License
-  [![License](https://img.shields.io/badge/license-${encodeURIComponent(data.license)}-green)](./LICENSE)
   This project is licensed under the ${data.license}
 
   ## Contributing

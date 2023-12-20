@@ -1,25 +1,26 @@
-# READMEGEN
+# README-GEN
+  
+  [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
   
   ## Description
-  creates a readme file
+  Generates a readme file for the user.
 
   ## Table of Contents
-  - [Installation]{#installation}
-  - [Usage]{#usage}
-  - [License]{#license}
-  - [Contributing]{#contributing}
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
 
   ## Usage
-  node app.js
+  This project usage is used for anyone who needs a README.md file for their project!
 
   ## Contributing
   undefined
 
   ## License
-  [![License](https://img.shields.io/badge/license-Do%20What%20The%20F*ck%20You%20Want%20To%20Public%20License-green)](./LICENSE)
-  This project is licensed under the Do What The F*ck You Want To Public License
+  This project is licensed under the MIT
 
   ## Contributing
   undefined
