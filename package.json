@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "node-js": "^1.0.0"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
