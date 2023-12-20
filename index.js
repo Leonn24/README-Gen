@@ -53,7 +53,7 @@ const promptUser = () => {
   ])
 }
   
-function generateREADME(data) {
+const generateREADME = (data) => {
   const licenseBadge = `[![License](https://img.shields.io/badge/license-${encodeURIComponent(data.license)}-green)](./LICENSE)`;
   return `# ${data.title}
   
@@ -93,7 +93,7 @@ async function init() {
   try {
     const userData = await promptUser();
     const readmeInfo = generateREADME(userData);
-    fs.writeFileSync('README.md', readmeInfo);
+    fs.writeFileSync('./dist/README.md', readmeInfo);
     console.log('README.md generated successfully!');
   } catch (error) {
     console.error('Error generating README', error.message);

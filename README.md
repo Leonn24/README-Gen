@@ -1,9 +1,12 @@
-# README-Gen
+# README Generator
   
   [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
   
   ## Description
-  Generates a README.md file for your Project.
+  This project will generate a high quality README.md file you can copy to your GitHub project
+  Here's a preview of the generator in action! https://youtu.be/fVVd7oht9e8
+  https://github.com/Leonn24/README-Gen
+
 
   ## Table of Contents
   - [Installation](#installation)
@@ -14,16 +17,26 @@
   - [Questions](#questions)
 
   ## Usage
-  This project usage is for anyone that needs a README.md file for their own GitHub Project!
+  This project usage is for anyone that needs a high quality README.md file for their own GitHub Project!
+  
+  ## Installation
+  Step 1: Clone this repository
+  ![Clone](/images/cloneimg.png)
+
+  Step 2: Run 'node index.js' in terminal
+  ![Node](/images/nodeindex.png)
+
+  Step 3: Answer the prompts
+  ![Prompt](/images/promptsimg.png)
+
+  Step 4: Copy README file from dist directory
+  ![Dist](/images/distimg.png)
 
   ## Contributing
-  undefined
+  Anyone can contribute to this project!
 
   ## License
   This project is licensed under the MIT
-
-  ## Tests
-  undefined
 
   ## Questions
   
